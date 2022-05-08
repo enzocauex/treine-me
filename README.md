@@ -11,7 +11,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto foi elaborado durante a segunda do programa Explorer da [Rocketseat](https://www.rocketseat.com.br/) no stage 02, onde foram abordados os seguintes conceitos:
+O projeto foi elaborado durante a segunda semana do programa Explorer da [Rocketseat](https://www.rocketseat.com.br/) no stage 02, onde foram abordados os seguintes conceitos:
 
 - Tags semânticas do HTML
 - O conceito de Box Model no CSS
