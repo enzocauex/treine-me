@@ -1,11 +1,10 @@
 body {
   margin: 0;
+  min-height: 100vh;
 
   font-family: "Open Sans", sans-serif;
 
   background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
-
-  min-height: 100vh;
 }
 
 .page {
@@ -52,6 +51,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  animation: appear 700ms;
 }
 
 h1 {
@@ -67,6 +67,10 @@ h1 {
 h1 span {
   color: #89C5CC;
   font-weight: bold;
+}
+
+main img {
+ animation: appear 700ms 200ms backwards;
 }
 
 section p {
@@ -116,4 +120,16 @@ footer a {
   position: fixed;
   bottom: 0;
   right: 0;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateX(-15px)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
